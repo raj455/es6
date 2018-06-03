@@ -1,7 +1,8 @@
 function sayHello(name){
-    return ()=>{
+    return (name)=>{
         console.log('Hody '+name);
     }
 }
 
-sayHello(name)();
+let res = sayHello("rah");
+res();
